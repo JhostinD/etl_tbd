@@ -46,3 +46,7 @@ Se ha creado una tabla dentro del schema "public" la tabla "recent_played_tracks
 3. song_name: nombre de la canción.
 4. album_image: columna de array de bytes que guarda la imagen de formato BLOB.
 5. played_at: fecha en la que se ha reproducido la canción.
+
+
+## Al ejecutar
+Hay que tener en cuenta que al ejecutar el programa la primera vez este nos redirigirá a la uri que especificamos tanto en la app como en settings.ini. Cuando ocurra esto, es necesario copiar la url completa de la página a la que se nos ha redirigido y pulsar enter. Una vez hecho esto, se generará un fichero ".cache" que contiene el token de acceso a la app.
