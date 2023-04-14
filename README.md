@@ -1,6 +1,8 @@
 # TBD_ETL
 
 ## Creación de la app en Spotify for Developers
+URL para documentación de Spotify API: https://developer.spotify.com/documentation/web-api/reference/get-recently-played
+
 1. Es necesario crearse una cuenta en spotify (es gratuito).
 2. Acceder al siguiente enlace e iniciar sesión: https://developer.spotify.com/dashboard.
 3. Pulsar el botón "Create app" y colocar un nombre y descripción. En "Redirect URI" colocamos una página web cualquiera (importante poner la misma en el campo "SPOTIPY_REDIRECT_URI" settings.ini, se explicará más adelante) y pulsamos en "save".
